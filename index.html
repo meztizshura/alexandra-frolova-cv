@@ -3,34 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тест деплоя</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f4f8;
-        }
-        .card {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 { color: #2563eb; }
-        p { color: #4b5563; }
-    </style>
+    <title>Фролова Александра | Middle Python Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1>Александра Фролова</h1>
-        <p>Middle Python Developer</p>
-        <hr>
-        <p>Тест деплоя</p>
+
+<div class="container">
+    <header>
+        <div class="header-info">
+            <h1>Александра Фролова</h1>
+            <p>Middle Python Developer</p>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:afrolova923@gmail.com">
+                <i class="fas fa-envelope"></i>
+                afrolova923@gmail.com
+            </a>
+            <a href="https://github.com/meztizshura" target="_blank">
+                <i class="fab fa-github"></i>
+                meztizshura
+            </a>
+        </div>
+    </header>
+
+    <section id="summary">
+        <p>
+            Специализируюсь на автоматизации бизнес-процессов и разработке сложных backend-систем.
+            Имею опыт создания кастомных модулей учета на базе Odoo и разработки
+            высоконагруженных автоматизированных систем управления предприятием (АСУП).
+        </p>
+    </section>
+
+    <h2>Технический стек</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <strong>Backend & Architecture</strong>
+            Python (FastAPI, Odoo, Django), Asyncio, Motor, SQLAlchemy, Celery
+        </div>
+        <div class="skill-category">
+            <strong>Databases & Messaging</strong>
+            PostgreSQL, MongoDB (Aggregation & Migrations), Redis (PubSub), FastAPI Events, SQL Server
+        </div>
+        <div class="skill-category">
+            <strong>DevOps, Tools & Testing</strong>
+            Docker, CI/CD, Uvicorn, Git, Pytest (Asyncio), OpenAPI (Swagger)
+        </div>
+        <div class="skill-category">
+            <strong>Integrations & Other</strong>
+            1С, T-Flex Docs, Telegram Bot API, RESTful API (JWT Auth), PHP, JS, NiceGUI, C# (.NET)
+        </div>
     </div>
+
+    <h2>Опыт работы</h2>
+
+    <div class="experience-item">
+        <div class="exp-header">
+            <span class="exp-company">ООО «Администрива»</span>
+            <span>Июль 2024 — Настоящее время</span>
+        </div>
+        <strong>Backend Developer (Python / Odoo)</strong>
+<ul>
+<li>Проектирование и разработка АСУП на стеке FastAPI и MongoDB.</li>
+    <li>Проектирование и разработка приложения для автоматизации процессов печати паспортов изделий (Django).</li>
+        <li>Оптимизация сложных запросов в MongoDB: проектирование агрегационных пайплайнов.</li>
+        <li>Внедрение обработки фоновых задач через Celery.</li>
+        <li>Создание полного модуля учета на фреймворке Odoo для автоматизации производственных циклов.</li>
+        <li>Проектирование Telegram-бота для интеграции с ERP: мониторинг данных в реальном времени и создание записей через API.</li>
+        <li>Внедрение событийной модели обмена данными через FastAPI Events и Redis PubSub.</li>
+        <li>Покрытие системы интеграционными тестами с использованием PyTest.</li>
+        <li>Интеграция систем с промышленным ПО (1С, T-Flex Docs) и разработка интерфейсов на NiceGUI.</li>
+    </ul>
+        <div class="tags">
+            <span class="tag">FastAPI</span> <span class="tag">Django</span> <span class="tag">Odoo</span> <span class="tag">Telegram API</span> <span class="tag">MongoDB</span> <span class="tag">Celery</span> <span class="tag">Redis</span> <span class="tag">NiceGUI</span>
+        </div>
+    </div>
+
+<div class="experience-item">
+    <div class="exp-header">
+        <span class="exp-company">ОАО «Гидросила Белар»</span>
+        <span>Август 2023 — Апрель 2024</span>
+    </div>
+    <strong>Техник-программист</strong>
+    <ul>
+        <li>Разработка и поддержка фронтенд-части корпоративного портала на WordPress: кастомизация модулей с использованием JavaScript и PHP.</li>
+        <li>Работа в среде 1С:Предприятие: разработка и настройка внутренних отчетов, обработка данных для производственных нужд.</li>
+    </ul>
+    <div class="tags">
+        <span class="tag">JavaScript</span> <span class="tag">PHP</span> <span class="tag">WordPress</span>
+    </div>
+</div>
+
+<h2>Образование</h2>
+<div class="experience-item">
+    <p>
+        <strong>УО «Гомельский государственный аграрно-экономический колледж» (г. Гомель)</strong><br>
+        Техник-программист (ПОИТ) | 2019 — 2023 гг.
+    </p>
+    <ul style="margin-top: -10px;">
+        <li>
+            Дипломный проект: Автоматизированная система учета дилерских договоров.<br>
+            Проектирование архитектуры БД и реализация серверной логики на C# (.NET) с использованием SQL Server.
+        </li>
+    </ul>
+</div>
+
+    <h2>Языки</h2>
+    <div class="skills-grid" style="grid-template-columns: repeat(2, 1fr); background: none; padding: 0;">
+        <div class="skill-category" style="background: var(--light); padding: 15px; border-radius: 8px;">
+            <strong>Английский</strong>
+            B1 (Intermediate)
+        </div>
+        <div class="skill-category" style="background: var(--light); padding: 15px; border-radius: 8px;">
+            <strong>Французский</strong>
+            B1 (Intermediate)
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
