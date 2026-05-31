@@ -30,8 +30,8 @@
     <section id="summary">
         <p>
             Специализируюсь на автоматизации бизнес-процессов и разработке сложных backend-систем.
-            Имею опыт создания кастомных модулей учета на базе Odoo и разработки
-            высоконагруженных автоматизированных систем управления предприятием (АСУП).
+            Имею опыт создания кастомных модулей учета на базе Odoo, разработки
+            высоконагруженных автоматизированных систем управления предприятием (АСУП) и проектирования масштабируемых микросервисов.
         </p>
     </section>
 
@@ -39,19 +39,19 @@
     <div class="skills-grid">
         <div class="skill-category">
             <strong>Backend & Architecture</strong>
-            Python (FastAPI, Odoo, Django), Asyncio, Motor, SQLAlchemy, Celery
+            Python (FastAPI, Odoo, Django), Asyncio, Motor, SQLAlchemy, Celery, RabbitMQ
         </div>
         <div class="skill-category">
             <strong>Databases & Messaging</strong>
-            PostgreSQL, MongoDB (Aggregation & Migrations), Redis (PubSub), FastAPI Events, SQL Server
+            PostgreSQL, MongoDB (Aggregation & Migrations), Redis (PubSub, Caching, Rate Limiting), FastAPI Events, SQL Server
         </div>
         <div class="skill-category">
             <strong>DevOps, Tools & Testing</strong>
-            Docker, CI/CD, Uvicorn, Git, Pytest (Asyncio), OpenAPI (Swagger)
+            Docker, CI/CD, Uvicorn, Git, Pytest (Asyncio), OpenAPI (Swagger), MinIO (S3)
         </div>
         <div class="skill-category">
             <strong>Integrations & Other</strong>
-            1С, T-Flex Docs, Telegram Bot API, RESTful API (JWT Auth), PHP, JS, NiceGUI, C# (.NET)
+            1С, T-Flex Docs, Telegram Bot API, RESTful API (JWT Auth), PHP, JS, NiceGUI, C# (.NET), Pandas
         </div>
     </div>
 
@@ -60,22 +60,25 @@
     <div class="experience-item">
         <div class="exp-header">
             <span class="exp-company">ООО «Администрива»</span>
-            <span>Июль 2024 — Настоящее время</span>
+            <span>Июль 2024 — Май 2026</span>
         </div>
-        <strong>Backend Developer (Python / Odoo)</strong>
+        <strong>Backend Developer (Python)</strong>
 <ul>
-<li>Проектирование и разработка АСУП на стеке FastAPI и MongoDB.</li>
-    <li>Проектирование и разработка приложения для автоматизации процессов печати паспортов изделий (Django).</li>
+        <li>Проектирование и разработка АСУП на стеке FastAPI и MongoDB.</li>
+        <li>Разработка масштабируемого микросервиса (FastAPI) для потоковой обработки и валидации табличных данных (CSV, ODS, Google Sheets, xlsx) с использованием Pandas.</li>
+        <li>Проектирование и разработка приложения для автоматизации процессов печати паспортов изделий (Django).</li>
         <li>Оптимизация сложных запросов в MongoDB: проектирование агрегационных пайплайнов.</li>
-        <li>Внедрение обработки фоновых задач через Celery.</li>
+        <li>Организация асинхронной фоновой обработки задач с помощью Celery и брокера сообщений RabbitMQ.</li>
+        <li>Интеграция с S3-совместимым хранилищем (MinIO) для автоматической генерации и сохранения результирующих файлов.</li>
         <li>Создание полного модуля учета на фреймворке Odoo для автоматизации производственных циклов.</li>
+        <li>Разработка высоконагруженного сервиса сокращения ссылок (Redis Cache-Aside, Distributed Rate Limiter) и сервиса аутентификации.</li>
         <li>Проектирование Telegram-бота для интеграции с ERP: мониторинг данных в реальном времени и создание записей через API.</li>
         <li>Внедрение событийной модели обмена данными через FastAPI Events и Redis PubSub.</li>
         <li>Покрытие системы интеграционными тестами с использованием PyTest.</li>
         <li>Интеграция систем с промышленным ПО (1С, T-Flex Docs) и разработка интерфейсов на NiceGUI.</li>
     </ul>
         <div class="tags">
-            <span class="tag">FastAPI</span> <span class="tag">Django</span> <span class="tag">Odoo</span> <span class="tag">Telegram API</span> <span class="tag">MongoDB</span> <span class="tag">Celery</span> <span class="tag">Redis</span> <span class="tag">NiceGUI</span>
+            <span class="tag">FastAPI</span> <span class="tag">Django</span> <span class="tag">Odoo</span> <span class="tag">Telegram API</span> <span class="tag">MongoDB</span> <span class="tag">Celery</span> <span class="tag">Redis</span> <span class="tag">NiceGUI</span> <span class="tag">RabbitMQ</span> <span class="tag">MinIO</span>
         </div>
     </div>
 
