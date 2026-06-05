@@ -1,132 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фролова Александра | Middle Python Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.3; color: #000; max-width: 800px; margin: 20px auto; }
+        h2 { font-size: 12pt; margin: 20px 0 5px 0; padding-bottom: 3px; text-transform: uppercase; }
+        .header { margin-bottom: 20px; border-bottom: 1px solid #000; padding-bottom: 5px; }
+        .exp-header { font-weight: bold; margin-top: 15px; }
+        ul { margin: 5px 0; padding-left: 20px; }
+        li { margin-bottom: 4px; }
+        .tech-summary { list-style-type: disc; padding-left: 20px; margin-top: 5px; }
+    </style>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <div class="header-info">
-            <h1>Александра Фролова</h1>
-            <p>Middle Python Developer</p>
-        </div>
-        <div class="contact-links">
-            <a href="en.html" style="color: #666; text-decoration: none; font-size: 0.95em;">
-                <i class="fas fa-globe"></i> English Version
-            </a>
-            <a href="mailto:afrolova923@gmail.com">
-                <i class="fas fa-envelope"></i>
-                afrolova923@gmail.com
-            </a>
-            <a href="https://github.com/meztizshura" target="_blank">
-                <i class="fab fa-github"></i>
-                meztizshura
-            </a>
-        </div>
-    </header>
+<div class="header">
+    <strong>FROLOVA ALEXANDRA</strong> | Software Engineer | afrolova923@gmail.com |<br>
+    https://www.linkedin.com/in/alexandra-frolova-3093a2405 |
+</div>
 
-    <section id="summary">
-        <p>
-            Специализируюсь на автоматизации бизнес-процессов и разработке сложных backend-систем.
-            Имею опыт создания кастомных модулей учета на базе Odoo, разработки
-            высоконагруженных автоматизированных систем управления предприятием (АСУП) и проектирования масштабируемых микросервисов.
-        </p>
-    </section>
+<h2>PROFESSIONAL EXPERIENCE</h2>
 
-    <h2>Технический стек</h2>
-    <div class="skills-grid">
-        <div class="skill-category">
-            <strong>Backend & Architecture</strong>
-            Python (FastAPI, Odoo, Django), Asyncio, Motor, SQLAlchemy, Celery, RabbitMQ
-        </div>
-        <div class="skill-category">
-            <strong>Databases & Messaging</strong>
-            PostgreSQL, MongoDB (Aggregation & Migrations), Redis (PubSub, Caching, Rate Limiting), FastAPI Events, SQL Server
-        </div>
-        <div class="skill-category">
-            <strong>DevOps, Tools & Testing</strong>
-            Docker, CI/CD, Uvicorn, Git, Pytest (Asyncio), OpenAPI (Swagger), MinIO (S3)
-        </div>
-        <div class="skill-category">
-            <strong>Integrations & Other</strong>
-            1С, T-Flex Docs, Telegram Bot API, RESTful API (JWT Auth), PHP, JS, NiceGUI, C# (.NET), Pandas
-        </div>
-    </div>
-
-    <h2>Опыт работы</h2>
-
-    <div class="experience-item">
-        <div class="exp-header">
-            <span class="exp-company">ООО «Администрива»</span>
-            <span>Июль 2024 — Май 2026</span>
-        </div>
-        <strong>Backend Developer (Python)</strong>
+<div class="exp-header">Administriva LLC | Python Developer | Belarus (Remote) (July 2024 – May 2026)</div>
+An enterprise software development company building automated management systems and ERPs.
 <ul>
-        <li>Проектирование и разработка АСУП на стеке FastAPI и MongoDB.</li>
-        <li>Разработка масштабируемого микросервиса (FastAPI) для потоковой обработки и валидации табличных данных (CSV, ODS, Google Sheets, xlsx) с использованием Pandas.</li>
-        <li>Проектирование и разработка приложения для автоматизации процессов печати паспортов изделий (Django).</li>
-        <li>Оптимизация сложных запросов в MongoDB: проектирование агрегационных пайплайнов.</li>
-        <li>Организация асинхронной фоновой обработки задач с помощью Celery и брокера сообщений RabbitMQ.</li>
-        <li>Интеграция с S3-совместимым хранилищем (MinIO) для автоматической генерации и сохранения результирующих файлов.</li>
-        <li>Создание полного модуля учета на фреймворке Odoo для автоматизации производственных циклов.</li>
-        <li>Разработка высоконагруженного сервиса сокращения ссылок (Redis Cache-Aside, Distributed Rate Limiter) и сервиса аутентификации.</li>
-        <li>Проектирование Telegram-бота для интеграции с ERP: мониторинг данных в реальном времени и создание записей через API.</li>
-        <li>Внедрение событийной модели обмена данными через FastAPI Events и Redis PubSub.</li>
-        <li>Покрытие системы интеграционными тестами с использованием PyTest.</li>
-        <li>Интеграция систем с промышленным ПО (1С, T-Flex Docs) и разработка интерфейсов на NiceGUI.</li>
-    </ul>
-        <div class="tags">
-            <span class="tag">FastAPI</span> <span class="tag">Django</span> <span class="tag">Odoo</span> <span class="tag">Telegram API</span> <span class="tag">MongoDB</span> <span class="tag">Celery</span> <span class="tag">Redis</span> <span class="tag">NiceGUI</span> <span class="tag">RabbitMQ</span> <span class="tag">MinIO</span>
-        </div>
-    </div>
+    <li>Co-designed and developed from scratch the core of an enterprise automated management system for nuclear electric motor production using FastAPI and MongoDB; within the project, implemented an asynchronous architecture (Celery, Redis Pub/Sub, WebSockets) and document generation with integration into industrial software (1C, T-Flex Docs).</li>
+    <li>Optimized the performance of the automated enterprise management system, reducing data retrieval time from MongoDB from 5 seconds to 0.2 milliseconds by restructuring documents, configuring indexes, and designing complex aggregation pipelines.</li>
+    <li>Saved hours of manual work by automating the streaming and validation of data (CSV, XLSX, ODS) using FastAPI, Pandas, and MinIO (S3), and implemented asynchronous data exchange via RabbitMQ for flexible system scaling and the connection of future services.</li>
+    <li>Automated the financial processes of a private international trading platform, completing a full transition from manual Excel spreadsheets to a centralized system, for which I developed a custom accounting module from scratch in Odoo as part of a team; this ensured flexible data management and eliminated the risk of information loss.</li>
+    <li>Optimized the data collection process on the trading platform by creating a Telegram bot with direct API integration into the accounting database, replacing manual entry by managers with client self-service (viewing data, creating, and updating records).</li>
+    <li>Accelerated the preparation process of production documentation by designing and developing an internal Django application for the full automation of generation and bulk printing of product passports.</li>
+</ul>
 
-<div class="experience-item">
-    <div class="exp-header">
-        <span class="exp-company">ОАО «Гидросила Белар»</span>
-        <span>Август 2023 — Апрель 2024</span>
-    </div>
-    <strong>Техник-программист</strong>
-    <ul>
-        <li>Разработка и поддержка фронтенд-части корпоративного портала на WordPress: кастомизация модулей с использованием JavaScript и PHP.</li>
-        <li>Работа в среде 1С:Предприятие: разработка и настройка внутренних отчетов, обработка данных для производственных нужд.</li>
-    </ul>
-    <div class="tags">
-        <span class="tag">JavaScript</span> <span class="tag">PHP</span> <span class="tag">WordPress</span>
-    </div>
-</div>
+<div class="exp-header">Hydrosila Belar OJSC | Software Technician | Belarus, Gomel (August 2023 – April 2024)</div>
+A manufacturing enterprise specializing in hydraulic components.
+<ul>
+    <li>Maintained and customized the frontend of the corporate portal using WordPress, PHP, and JavaScript, optimizing internal communications and updating UI/UX modules.</li>
+    <li>Optimized production data management within the 1C:Enterprise environment by developing custom internal reports and data processing scripts.</li>
+</ul>
 
-<h2>Образование</h2>
-<div class="experience-item">
-    <p>
-        <strong>УО «Гомельский государственный аграрно-экономический колледж» (г. Гомель)</strong><br>
-        Техник-программист (ПОИТ) | 2019 — 2023 гг.
-    </p>
-    <ul style="margin-top: -10px;">
-        <li>
-            Дипломный проект: Автоматизированная система учета дилерских договоров.<br>
-            Проектирование архитектуры БД и реализация серверной логики на C# (.NET) с использованием SQL Server.
-        </li>
-    </ul>
-</div>
+<h2>EDUCATION</h2>
+<div class="exp-header">Information Technology Software | Gomel State Agrarian-Economic College (Belarus, Sep 2019 - May 2023, 7.5/10.0)</div>
+<ul>
+    <li>Graduation Project: Developed an automated dealer contract accounting system; designed the database architecture and implemented backend server logic using C# (.NET) and SQL Server.</li>
+</ul>
 
-    <h2>Языки</h2>
-    <div class="skills-grid" style="grid-template-columns: repeat(2, 1fr); background: none; padding: 0;">
-        <div class="skill-category" style="background: var(--light); padding: 15px; border-radius: 8px;">
-            <strong>Английский</strong>
-            B1 (Intermediate)
-        </div>
-        <div class="skill-category" style="background: var(--light); padding: 15px; border-radius: 8px;">
-            <strong>Французский</strong>
-            B1 (Intermediate)
-        </div>
-    </div>
+<h2>TECHNOLOGY SUMMARY</h2>
+<ul class="tech-summary">
+    <li>Python (FastAPI, Django, Odoo), Asyncio</li>
+    <li>Celery, RabbitMQ, Redis (Pub/Sub)</li>
+    <li>PostgreSQL, MongoDB</li>
+    <li>SQLAlchemy, Motor</li>
+    <li>Pytest</li>
+    <li>MinIO (S3), OpenAPI (Swagger), Uvicorn</li>
+    <li>Docker, Git</li>
+    <li>Telegram Bot API, RESTful API (JWT Auth), NiceGUI</li>
+    <li>JavaScript</li>
+</ul>
 
-</div>
+<h2>LANGUAGES</h2>
+<p>English • Russian</p>
 
 </body>
 </html>
